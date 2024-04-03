@@ -17,7 +17,7 @@ git clone ...
 
 ## Project setup
 ```
-npm install (or use cnpm|yarn)
+npm install (or use pnpm|cnpm|yarn)
 ```
 
 ### Compiles and hot-reloads for development
