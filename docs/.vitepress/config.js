@@ -33,5 +33,6 @@ export default {
     }
   },
   head: [],
-  metaChunk: true
+  metaChunk: true,
+  base: '/web-docs/'
 }
