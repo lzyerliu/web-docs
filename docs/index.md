@@ -6,7 +6,7 @@ hero:
   text: Vite & text
   tagline: sub
   image:
-    src: /assets/images/logo.jpg
+    src: /images/logo.jpg
     alt: Logo
   actions:
     - theme: brand
@@ -23,8 +23,8 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
   - icon:
-      dark: /assets/images/logo.jpg
-      light: /assets/images/logo.jpg
+      dark: /images/logo.jpg
+      light: /images/logo.jpg
     title: Another cool feature
     details: Lorem ipsum...
 ---
