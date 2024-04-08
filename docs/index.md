@@ -4,7 +4,7 @@ layout: home
 hero:
   name: WebSite
   text: Vite & text
-  tagline: sub desc
+  tagline: Desc
   image:
     src: /images/logo.jpg
     alt: Logo
