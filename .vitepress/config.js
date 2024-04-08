@@ -37,7 +37,7 @@ export default {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/fanicon.ico' }]
+    ['link', { rel: 'icon', href: '/web-docs/fanicon.ico' }]
   ],
   metaChunk: true, // 当设置为 true 时，将页面元数据提取到单独的 JavaScript 块中，而不是内联在初始 HTML 中
   base: '/web-docs/', // 站点将部署到的 base URL。如果计划在子路径例如 GitHub 页面）下部署站点，则需要设置此项。如果计划将站点部署到 https://foo.github.io/bar/，那么应该将 base 设置为 “/bar/”。它应该始终以 / 开头和结尾
