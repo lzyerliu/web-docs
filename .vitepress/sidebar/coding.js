@@ -12,6 +12,13 @@ const codingSidebar = [
           { text: 'Vue One', link: '/coding/vue/one' },
           { text: 'VUe Two', link: '/coding/vue/two' }
         ]
+      },
+      {
+        text: 'Git',
+        items: [
+          { text: '本地配置', link: '/coding/git/' },
+          { text: '基本使用', link: '/coding/git/base' }
+        ]
       }
     ]
   }
