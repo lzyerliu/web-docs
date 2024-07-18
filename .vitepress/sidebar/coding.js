@@ -18,13 +18,6 @@ const codingSidebar = [
         items: [
           { text: 'React', link: '/coding/react/' }
         ]
-      },
-      {
-        text: 'Git',
-        items: [
-          { text: '本地配置', link: '/coding/git/' },
-          { text: '基本使用', link: '/coding/git/base' }
-        ]
       }
     ]
   }

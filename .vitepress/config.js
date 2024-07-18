@@ -2,18 +2,28 @@
 import drawSidebar from './sidebar/draw.js'
 import shootSidebar from './sidebar/shoot.js'
 import codingSidebar from './sidebar/coding.js'
+import nodeSidebar from './sidebar/node.js'
+import toolSidebar from './sidebar/tool.js'
 
 export default {
-  title: 'WebSite',
+  title: 'BoomC',
   description: 'WebSite Description',
   // 主题
   themeConfig: {
-    siteTitle: 'DOC Site',
+    siteTitle: 'BoomC',
     // 导航栏
     nav: [
-      { text: 'Guide', link: '/coding/' },
+      { text: 'Guide', link: '/guide/' },
       {
-        text: 'Dropdown Menu',
+        text: 'Coding',
+        items: [
+          { text: 'Web', link: '/coding/' },
+          { text: 'Node', link: '/coding/node/' },
+          { text: 'Tool', link: '/tool/git/' }
+        ]
+      },
+      {
+        text: 'Life',
         items: [
           { text: 'Draw', link: '/life/draw/' },
           { text: 'Shoot', link: '/life/shoot/' }
@@ -23,8 +33,10 @@ export default {
     // 侧边栏
     sidebar: {
       '/coding/': codingSidebar,
+      '/coding/node/': nodeSidebar,
       '/life/draw/': drawSidebar,
-      '/life/shoot/': shootSidebar
+      '/life/shoot/': shootSidebar,
+      '/tool/git/': toolSidebar
     },
     // 底部显示页脚
     footer: {

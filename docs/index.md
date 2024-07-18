@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name: WebSite
-  text: Vite & text
-  tagline: Desc
+  name: BoomC Doc
+  text: Coding & Life
+  tagline: World Peace
   image:
     src: /images/logo.jpg
     alt: Logo
   actions:
     - theme: brand
       text: Get Started
-      link: /coding/
+      link: /guide/
     - theme: alt
       text: View on GitHub
       link: https://github.com/lzyerliu
