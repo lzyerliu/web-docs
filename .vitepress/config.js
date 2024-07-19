@@ -25,6 +25,7 @@ export default {
       {
         text: 'Life',
         items: [
+          { text: 'Motto', link: '/life/motto' },
           { text: 'Draw', link: '/life/draw/' },
           { text: 'Shoot', link: '/life/shoot/' }
         ]
