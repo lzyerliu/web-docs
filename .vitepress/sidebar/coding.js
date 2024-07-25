@@ -9,8 +9,7 @@ const codingSidebar = [
         text: 'Vue',
         items: [
           { text: 'Vue Index', link: '/coding/vue/' },
-          { text: 'Vue One', link: '/coding/vue/one' },
-          { text: 'VUe Two', link: '/coding/vue/two' }
+          { text: 'Pinia', link: '/coding/vue/pinia' }
         ]
       },
       {

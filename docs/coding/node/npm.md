@@ -16,25 +16,25 @@ https://registry.npmmirror.com
 ```
 
 国内网络，用官方镜像安装慢，可以切换为淘宝镜像
-```
+```sh
 npm config set registry https://registry.npmmirror.com
 ```
 
 npm 相关命令
-```
-// 查看配置
+```sh
+# 查看配置
 npm config list
 
-// 查看当前镜像
+# 查看当前镜像
 npm config get registry
 
-// 设置镜像
+# 设置镜像
 npm config set registry https://registry.npmjs.org
 
-// 安装Node依赖
+# 安装Node依赖
 npm install || npm i
 
-// 安装某个包(如：vue)依赖 -S(--save)：生产依赖, -D(--save-dev)：开发依赖
+# 安装某个包(如：vue)依赖 -S(--save)：生产依赖, -D(--save-dev)：开发依赖
 npm install (-S|-D) vue
 
 ```
