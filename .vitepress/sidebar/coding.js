@@ -17,6 +17,12 @@ const codingSidebar = [
         items: [
           { text: 'React', link: '/coding/react/' }
         ]
+      },
+      {
+        text: 'MpApp',
+        items: [
+          { text: 'Taro', link: '/coding/mpapp/taro' }
+        ]
       }
     ]
   }
