@@ -78,4 +78,6 @@ Host codeup-user-my # 定义别名， 实际连接 codeup.aliyun.com  如仓库�
 ### 测试是否配置成功
 ```sh
 ssh -T git@codeup-user-my  # 应返回 对应的 欢迎信息
+
+ssh -T git@codeup.aliyun.com  # 应返回 对应的 欢迎信息
 ```

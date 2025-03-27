@@ -35,4 +35,14 @@ git checkout <original branch>
 
 # 恢复原分支暂缓修改
 git stash pop
+
+# 查看提交日志
+git log
+
+# 回退到上一次
+git reset --hard
+
+# 回退到 指定（commit log f360ea50bd8d2cf76503a84080cf4a00d798f06c） 的这个版本
+git reset --hard f360ea50bd8d2cf76503a84080cf4a00d798f06c）
+
 ```
